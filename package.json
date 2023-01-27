@@ -1,0 +1,24 @@
+{
+    "name": "bazanime",
+    "version": "1.0.0",
+    "description": "An anime streaming site",
+    "main": "./backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "dev": "node backend/server.js"
+    },
+    "keywords": [
+        "Anime",
+        "Stream",
+        "Animation"
+    ],
+    "author": "Francis Baziele Saah",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
